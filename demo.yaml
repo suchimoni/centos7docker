@@ -15,8 +15,8 @@ spec:
         app: democicd
     spec:
       containers:
-      - name: httpd
-        image: agawande/httpd:10
+      - name: my-app
+        image: suchimoni/my-app:latest
         ports:
         - containerPort: 80
         resources:
